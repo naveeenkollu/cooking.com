@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.font-serif-custom{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: -1.5px;
+}
+
+.bg-orange-800{
+    background: #FF5E2B;
+}
+
+.bg-orange-200{
+    background: #FAEDE8;
+}
+
+.bg-blue-900{
+    background: #1877F2;
+}
