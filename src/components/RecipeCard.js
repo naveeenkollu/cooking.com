@@ -20,8 +20,8 @@ class RecipeCard extends Component{
 
         const dishes = this.state.recipes.map(recipe => {
             return(
-                <div className="w-44 h-56 m-2 bg-white shadow-sm font-sans-custom" key={recipe.id}>
-                    <img className="h-32" src={recipe.image} alt={recipe.name} />
+                <div className="w-44 h-56 m-2 bg-white shadow-sm font-sans-custom rounded-sm" key={recipe.id}>
+                    <img className="h-32 rounded-t-sm" src={recipe.image} alt={recipe.name} />
                     <div className="pl-2 pr-2 text-gray-600">
                         <p className="font-regular text-s m-0 mt-1 pb-10 custom-head-size">{recipe.name}</p>
                         <div className="flex flex-row text-xs">

@@ -8,7 +8,7 @@ class FindCard extends Component {
     render() {
         return(
             <div className="flex justify-center pt-5 pb-5 bg-orange-200">
-                <div className="flex shadow-md w-1/2 p-3 bg-white max-w-screen-md">
+                <div className="flex shadow-md w-1/2 p-3 bg-white max-w-screen-md rounded-sm">
                 <div className="flex flex-col justify-center">
                 <img alt="garlic-pepper" className="w-44 h-44 absolute inset-y-8 right-96 z-20" src="https://assets.i-scmp.com/cdn-cgi/image/fit=contain,quality=50,format=auto/cooking/cooking-deco_garlic_pepper.png"/>
                     <h1 className="p-2 font-serif-custom text-gray-700 flex justify-start mb-0">Find recipes & more</h1>
